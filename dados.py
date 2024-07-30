@@ -3,11 +3,11 @@
 # Casdatramento
 def informacoes ():
     pessoas = {
-        'OTM 2022':['MARLON', 'NEW CIVIC', 2022],
-        'AAA-5551':['ENZO', 'GOLF', 2021],
-        'UTS-0000':['RAUL', 'ECLIPSE', 2023],
-        'IRS-1836':['JONATHAN', 'LANCER', 2022],
-        'FBI-5551':['GUSTAVO', 'NEW BEATLE', 2023]
+        'ABEI2345':['MARLON', 'NEW CIVIC', 2022],
+        'AAA-5551':['ENZO', 'GOLF', '2021'],
+        'ELD- 3022':['RAUL', 'ECLIPSE', 2023],
+        '1RS-1836':['JONATHAN', 'LANCER', 2022],
+        'JTS-0000':['GUSTAVO', 'NEW BEATLE', 2023]
     }
     return pessoas
 

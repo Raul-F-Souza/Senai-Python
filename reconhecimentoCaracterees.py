@@ -1,7 +1,8 @@
 import cv2
 import pytesseract
 
-def reconhcerPlacas (imagem):
+def reconhcerTextos (imagem):
+
     # Chamando o executavel de reconhecimento de caracteres (bibilioteca)
     pytesseract.pytesseract.tesseract_cmd=r"C:\Users\Aluno\AppData\Local\Programs\Tesseract-OCR\tesseract.exe"
 
@@ -13,9 +14,7 @@ def reconhcerPlacas (imagem):
     
     return textos
 
+
+
 # Exibir uma imagem para a função e mostrar texto reconhecidos
-print(reconhcerPlacas('placa01.png'))
-print(reconhcerPlacas('placa02.jpg'))
-print(reconhcerPlacas('placa03.png'))
-print(reconhcerPlacas('placa04.png'))
-print(reconhcerPlacas('placa05.jpg'))
+# print(reconhcerTextos('livro.jpg'))
