@@ -1,8 +1,21 @@
-#Desafio 02: elabore um número que exiba os números impares de 50 a 100.
-for impares in range (50, 100):
-    if impares % 2 != 0:
-        print(impares)
+times = ('Palmeiras', 'Santos', 'São Paulo', 'Novorizontino', 'São Bernardo', 'Bragantino', 'Inter de Limeira',
+         'Ponte Preta', 'Água Santa', 'Corinthians', 'Mirassol', 'Botafogo', 'Portuguesa', 'Guarani', 'Santo André', 'Ituano')
 
-#Correção do professor:       
-#for impar in range (51, 100, 2):
-#    print(impar)
+print('Digite "A" para exibir os 3 primeiros colocados')
+print('Digite "B" para exibir os 3 últimos colocados')
+print('Digite "C" para exibir a lista em ordem alfabetica')
+print('Digite "D" para saber a posição do São Paulo')
+
+escolha = input('Digite aqui sua escolha: ')
+escolha = escolha.upper()
+
+if escolha == 'A':
+    print(times[:3])
+elif escolha == 'B':
+    print(times[12:])
+elif escolha == 'C':
+    print(sorted(times))
+elif escolha == 'D':
+    print(times.index('São Paulo') + 1)
+else:
+    print('Escolha não identificada, verificar escolha e fazer novamente!')
