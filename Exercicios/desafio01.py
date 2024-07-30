@@ -1,8 +1,6 @@
-contagem = (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
-numeroExtenso = ('Zero', 'Um', 'Dois', 'Três', 'Quatro',
-                 'Cinco', 'Seis', 'Sete', 'Oito', 'Nove', 'Dez')
-num = int(input('Digite um número de 0 a 10: '))
+#Crie um programa em python que contenha uma lista com 5 modelos de veículos. Exibi-los em ordem.
+modelosVeiculos = ['Mustang' , 'BMW M5' , 'Kawasaki zx10r' , 'Kawasaki Ninja 650' , 'Kawasaki h20rr']
+modelosVeiculos.sort()
 
-for i in range(0, len(contagem)):
-    if contagem[i] == num:
-        print(f'O número escolhido foi: {numeroExtenso[i]}')
+for modelo in modelosVeiculos:
+    print(modelo)
