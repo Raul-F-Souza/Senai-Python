@@ -6,7 +6,7 @@ janela = QWidget()
 janela.resize(300, 580)
 janela.setWindowTitle("Calculadora")
 
-with open("aula 12/exercicios/style.css", "r") as file:
+with open("Exercicios/style.css", "r") as file:
     app.setStyleSheet(file.read())
 
 def ExibirNoDisplay(x):
