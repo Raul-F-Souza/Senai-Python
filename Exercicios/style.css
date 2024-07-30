@@ -1,22 +1,25 @@
-QWidget {
+QWidget{
     background-color: black;
-    
-}
-
-QLineEdit{
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    background-color: #333;
     color: white;
-    direction: ltr;
-    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
-    font-size: 16px;
+
 }
 
 QLineEdit{
-    border-radius: 5%;
+    color: white;
+    font-weight: bolder;
+    text-align: right;
+    border: none;
+    font-size: 20px;
 }
 
 QPushButton{
-    border-radius: 5%;
+    font-weight: bolder;
+    color: white;
+    background-color: #161616;
+    border-radius: 35%;
+    font-size: 20px;
+}
+
+QPushButton:hover{
+    background-color: rgba(0, 0, 0, 0.658);
 }
