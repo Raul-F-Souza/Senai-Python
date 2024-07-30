@@ -1,0 +1,22 @@
+QWidget {
+    background-color: black;
+    
+}
+
+QLineEdit{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #333;
+    color: white;
+    direction: ltr;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 16px;
+}
+
+QLineEdit{
+    border-radius: 5%;
+}
+
+QPushButton{
+    border-radius: 5%;
+}
